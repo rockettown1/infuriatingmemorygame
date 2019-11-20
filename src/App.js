@@ -35,7 +35,6 @@ class App extends Component {
     isFlipped: false,
     match: [],
     images: [],
-    i: 0,
     allFound: false
   };
 
@@ -63,7 +62,7 @@ class App extends Component {
       }
       console.log("a match!");
 
-      this.setState({ match: [], images: [], i: this.state.i + 1 });
+      this.setState({ match: [], images: [] });
     } else if (
       this.state.images.length > 1 &&
       this.state.images[0] != this.state.images[1]
