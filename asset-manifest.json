@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/infuriatingmemorygame/static/css/main.34de6062.chunk.css",
-    "main.js": "/infuriatingmemorygame/static/js/main.b98bcb37.chunk.js",
-    "main.js.map": "/infuriatingmemorygame/static/js/main.b98bcb37.chunk.js.map",
+    "main.js": "/infuriatingmemorygame/static/js/main.d5b5a51a.chunk.js",
+    "main.js.map": "/infuriatingmemorygame/static/js/main.d5b5a51a.chunk.js.map",
     "runtime-main.js": "/infuriatingmemorygame/static/js/runtime-main.7bd9a20e.js",
     "runtime-main.js.map": "/infuriatingmemorygame/static/js/runtime-main.7bd9a20e.js.map",
     "static/js/2.091621e9.chunk.js": "/infuriatingmemorygame/static/js/2.091621e9.chunk.js",
     "static/js/2.091621e9.chunk.js.map": "/infuriatingmemorygame/static/js/2.091621e9.chunk.js.map",
     "index.html": "/infuriatingmemorygame/index.html",
-    "precache-manifest.276a4773b981d415dba177e0541d915a.js": "/infuriatingmemorygame/precache-manifest.276a4773b981d415dba177e0541d915a.js",
+    "precache-manifest.3409363776483b3d604044d1e87c1150.js": "/infuriatingmemorygame/precache-manifest.3409363776483b3d604044d1e87c1150.js",
     "service-worker.js": "/infuriatingmemorygame/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/infuriatingmemorygame/static/css/main.34de6062.chunk.css.map",
     "static/media/bowser.jpg": "/infuriatingmemorygame/static/media/bowser.69f44bd2.jpg",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.7bd9a20e.js",
     "static/js/2.091621e9.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.b98bcb37.chunk.js"
+    "static/js/main.d5b5a51a.chunk.js"
   ]
 }

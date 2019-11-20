@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5534c51b5f5ecef30d31d2431b5e2966",
+    "revision": "20554c9c1428e9b28c22add9b931f84d",
     "url": "/infuriatingmemorygame/index.html"
   },
   {
-    "revision": "6cd0368887210ee44fb3",
+    "revision": "72d4980ee154f4cad36f",
     "url": "/infuriatingmemorygame/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/infuriatingmemorygame/static/js/2.091621e9.chunk.js"
   },
   {
-    "revision": "6cd0368887210ee44fb3",
-    "url": "/infuriatingmemorygame/static/js/main.b98bcb37.chunk.js"
+    "revision": "72d4980ee154f4cad36f",
+    "url": "/infuriatingmemorygame/static/js/main.d5b5a51a.chunk.js"
   },
   {
     "revision": "3264a29515085a9b00a0",
