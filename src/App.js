@@ -5,7 +5,7 @@ import Toad from "./assets/tum.jpg";
 import Luigi from "./assets/luigi.png";
 import Bowser from "./assets/bowser.jpg";
 import Mario from "./assets/mario-pose4.png";
-import Card from "./cards/Card";
+
 import Cards from "./cards/Cards";
 
 let matchedSaved = [];
@@ -45,11 +45,9 @@ class App extends Component {
     imageCheck.push(image);
 
     matchedSaved.push(id);
-    console.log(matchedSaved);
+
     this.setState({ match: matchedArray, images: imageCheck });
 
-    console.log(this.state.match);
-    console.log(this.state.images);
     if (
       this.state.images.length > 1 &&
       this.state.images[0] == this.state.images[1]
@@ -60,7 +58,6 @@ class App extends Component {
           this.setState({ allFound: true });
         }, 1000);
       }
-      console.log("a match!");
 
       this.setState({ match: [], images: [] });
     } else if (
@@ -122,9 +119,11 @@ export default App;
 
 const Container = styled.div`
   width: 100vw;
+  height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 `;
