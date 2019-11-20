@@ -13,6 +13,7 @@ let unique;
 
 class App extends Component {
   state = {
+    title: "The Slightly Infuriating React Match Up Game",
     message: "Click the cards to find all the pairs",
     picsArray: [
       Mario,
@@ -35,6 +36,7 @@ class App extends Component {
     isFlipped: false,
     match: [],
     images: [],
+    lives: 8,
     allFound: false
   };
 
@@ -46,7 +48,11 @@ class App extends Component {
 
     matchedSaved.push(id);
 
-    this.setState({ match: matchedArray, images: imageCheck });
+    this.setState({
+      match: matchedArray,
+      images: imageCheck,
+      title: "The Slightly Infuriating React Match Up Game"
+    });
 
     if (
       this.state.images.length > 1 &&
@@ -72,7 +78,13 @@ class App extends Component {
         this.setState({ isFlipped: true });
       }, 250);
       setTimeout(() => {
-        this.setState({ isFlipped: false });
+        this.setState({ isFlipped: false, lives: this.state.lives - 1 });
+        if (this.state.lives == 0) {
+          this.setState({
+            title: "Oh no. Here's 8 more lives, cos you're shit",
+            lives: 8
+          });
+        }
       }, 500);
     }
   };
@@ -93,21 +105,24 @@ class App extends Component {
         ) : (
           <Container>
             <div>
-              <h1>The Slightly Infuriating React Match Up Game</h1>
+              <h1>{this.state.title}</h1>
             </div>
-            <div>
+            <Main>
+              <h3>Lives: {this.state.lives}</h3>
               <Cards
                 pics={this.state.picsArray}
                 click={this.clickHandler}
                 flip={this.state.isFlipped}
               />
-            </div>
-            <h3>{this.state.message}</h3>
-            <Warning>
-              {" "}
-              Beware though, if you make a mistake you'll have to start from the
-              beginning
-            </Warning>
+            </Main>
+            <Footer>
+              <h3>{this.state.message}</h3>
+              <Warning>
+                {" "}
+                Beware though, if you make a mistake you'll have to start from
+                the beginning
+              </Warning>
+            </Footer>
           </Container>
         )}
       </Container>
@@ -133,3 +148,14 @@ const Warning = styled.h3`
 `;
 
 const Win = styled.h1``;
+
+const Main = styled.div`
+  display: flex;
+  margin-left: -70px;
+`;
+
+const Footer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
