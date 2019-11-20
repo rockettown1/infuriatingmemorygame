@@ -91,7 +91,7 @@ class App extends Component {
 
   resetButton = () => {
     matchedSaved = [];
-    this.setState({ allFound: false });
+    this.setState({ allFound: false, lives: 8 });
   };
 
   render() {
