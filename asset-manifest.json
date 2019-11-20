@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/infuriatingmemorygame/static/css/main.34de6062.chunk.css",
+    "main.js": "/infuriatingmemorygame/static/js/main.27af8fea.chunk.js",
+    "main.js.map": "/infuriatingmemorygame/static/js/main.27af8fea.chunk.js.map",
+    "runtime-main.js": "/infuriatingmemorygame/static/js/runtime-main.7bd9a20e.js",
+    "runtime-main.js.map": "/infuriatingmemorygame/static/js/runtime-main.7bd9a20e.js.map",
+    "static/js/2.091621e9.chunk.js": "/infuriatingmemorygame/static/js/2.091621e9.chunk.js",
+    "static/js/2.091621e9.chunk.js.map": "/infuriatingmemorygame/static/js/2.091621e9.chunk.js.map",
+    "index.html": "/infuriatingmemorygame/index.html",
+    "precache-manifest.d506228861252343f2e0455b48805d5a.js": "/infuriatingmemorygame/precache-manifest.d506228861252343f2e0455b48805d5a.js",
+    "service-worker.js": "/infuriatingmemorygame/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/infuriatingmemorygame/static/css/main.34de6062.chunk.css.map",
+    "static/media/bowser.jpg": "/infuriatingmemorygame/static/media/bowser.69f44bd2.jpg",
+    "static/media/luigi.png": "/infuriatingmemorygame/static/media/luigi.a782540d.png",
+    "static/media/mario-pose4.png": "/infuriatingmemorygame/static/media/mario-pose4.b287c594.png",
+    "static/media/tum.jpg": "/infuriatingmemorygame/static/media/tum.9879d90b.jpg",
+    "static/media/ugandanKnuckles.jpeg": "/infuriatingmemorygame/static/media/ugandanKnuckles.e5b3de9c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bd9a20e.js",
+    "static/js/2.091621e9.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.27af8fea.chunk.js"
+  ]
+}
